@@ -16,7 +16,7 @@ const RootStack = () => {
       <Stack.Screen
         name="Write"
         component={WriteScreen}
-        options={{headerShown: true}}
+        options={{headerShown: false}}
       />
     </Stack.Navigator>
   );
